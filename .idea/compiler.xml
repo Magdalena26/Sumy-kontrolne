@@ -26,7 +26,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="sumy kontrolne" target="1.5" />
+      <module name="sumy kontrolne" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
