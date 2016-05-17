@@ -26,17 +26,14 @@ public class NagranieDzwiekowe implements Plik {
        return nazwa;
     }
 
-    @Override
-    public void wczytaj() {
-
-    }
 
     @Override
     public String getRozszerzenie() {
         return rozszerzenie;
     }
 
-    public String display(){
+    @Override
+    public String pobierzZawartosc(){
         return nazwa+ " "+rozmiar+" "+rozszerzenie;
     }
 }

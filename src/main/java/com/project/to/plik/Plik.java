@@ -6,7 +6,7 @@ package com.project.to.plik;
 public interface Plik {
     public int getRozmiar();
     public String getNazwa();
-    public void wczytaj();
     public String getRozszerzenie();
+    public String pobierzZawartosc();
 
 }

@@ -9,6 +9,7 @@ import java.security.MessageDigest;
  * Created by Magda on 2016-05-14.
  */
 public class Algorytm2 implements Algorytm {
+
     public String wylicz(Plik plik) throws Exception{
         String sciezka=plik.getNazwa();
         MessageDigest md= MessageDigest.getInstance("SHA-256");
